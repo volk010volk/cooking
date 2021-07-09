@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background: url(img/background.jpg);
+    font-size: 20px;
+}
+
+.light-bg {
+    opacity: 0.8;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+nav {
+    background-color: #FFD173;
+    height: 8vh;
+    /* line-height: 8vh; */
+    display: flex;
+    justify-content: start;
+}
+
+nav img {
+    height: 90%;
+    /* margin: auto; */
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+nav a {
+    background-color: darkgreen;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 1.75em;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    padding: 50px 0px;
+    font-size: 4em;
+    font-weight: 900;
+    color: dodgerblue;
+    background-color: white;
+}
+
+h2 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+h2, h3 {
+    font-weight: 600;
+}
+
+.pizza {
+    width: 50%;
+    float: right;
+}
+
+
+.ingr {
+    margin-bottom: 100px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.steps img {
+    width: 30%;
+    float: left;
+    clear: left;
+}
+
+.steps {
+    width: 100%;
+    overflow: hidden;
+    padding: 30px;
+    margin-right: 30px;
+}
+
+.bon-apetite {
+    font-size: 3em;
+    padding: 100%;
+    text-align: center;
+    font-weight: 900;
+}
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 15px 10px -10px rgba(0, 0, 0, 0.5);
+}
